@@ -1,0 +1,30 @@
+{
+    "name":             "LeoFelipe/apiRESTFul",
+    "description":      "API RESTFul desenvolvida com os micro-frameworks Slim e Doctrine 2",
+    "keywords":         ["slim", "doctrine", "Symfony/serializer", "composer", "php", "mvc"],
+    "homepage":         "https://github.com/LeoFelipe",
+    "time":             "2015-12-04",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "Leonardo Felipe [LeoFelipe]",
+            "email":        "leonardo.fdns@gmail.com",
+            "homepage":     "https://github.com/LeoFelipe",
+            "role":         "Software Architect, Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "doctrine/orm": "2.5.*",
+        "slim/slim": "2.*",
+        "symfony/serializer": "^2.7",
+        "symfony/yaml": "^2.7",
+        "symfony/config": "^2.7",
+        "symfony/property-access": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    }
+}
